@@ -30,4 +30,4 @@ mongoose.connect(
         console.log(`App running on port ${PORT}!`);
         });
 
-    app.use(require('./public/api'))
+    app.use(require('./routes/htmlRoutes.js'));
